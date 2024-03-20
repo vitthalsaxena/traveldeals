@@ -1,0 +1,11 @@
+{
+  "name": "gcf_email_welcome",
+  "version": "1.0.0",
+  "description": "GCF to email a new subscriber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
