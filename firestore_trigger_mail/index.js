@@ -40,7 +40,7 @@ exports.sendMail = (event, context) => {
                 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
                 // CREATE AN EMAIL MESSAGE
                 const msg = {
-                    to: doc.email_address,
+                    to: doc.data().email_address,
                     from: process.env.SENDGRID_SENDER,
                     subject: 'visaxen '+event.value.fields.headline
                 };
